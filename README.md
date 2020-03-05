@@ -1,4 +1,4 @@
-# Readme
+# README
 
 The purpose of this repo is to create an R package that would live on each 
 OSCAR host.  The plan is that there is a standing docker image that is always active,
@@ -23,5 +23,10 @@ we have choices -- either the R script itself, or a separate inotify process see
 tarball file, and moves it to the inbound folder of parse.evidently.ca
 
 
+## Things not here yet, not done, not thought through...
+
+In the next couple of days we'll get the inotify scripts working (in draft), 
+and then we'll lift it all into Docker, and try start to sort out  how we 
+are going to deliver the Docker container to Clark (via harbour?)
 
 
