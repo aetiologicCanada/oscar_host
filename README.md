@@ -17,6 +17,8 @@ The names `local_dev` and `petunia` are arbitrary.
 
 ## Deployment
 
+Deploy to this [Evidently Docker Hub Repository](https://hub.docker.com/repository/docker/evidentlyslocker/oscar_host).
+
 ```
 docker login
 docker image build -t oscar_host:0.1.0 . 
@@ -25,3 +27,4 @@ docker image push evidentlyslocker/oscar_host:0.1.0
 ```
 
 The tags follow [Semantic Versioning](https://semver.org/) with `major.minor.patch`.
+
